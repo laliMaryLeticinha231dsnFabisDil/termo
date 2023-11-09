@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: #302327be;
+}
+
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    display: flex; 
+    margin-top: 8vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+    font-family: 'Mitr', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.div-coluna{
+    background-color: white;
+    font: 700 20px 'Verdana';
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-family: 'Mitr', sans-serif;
+    font-size: 28px;
+    color: #FAFAFF;
+    background-color: #30282a;
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+   margin: -11px 2px 1px 1px;
+    justify-content: center;
+}
+
+.div-linha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+
+}
+
+.certo{
+    background-color: #3aa394;
+}
+.errado{
+    background-color: #f44336;
+}
+
+.deslocado{
+    background-color: #d3ad69;
+}
+
+
+
+
+
+/* Adicione isso ao seu arquivo CSS */
+
+.teclado-linha button {
+ 
+    padding: 5px;
+    background-color: #4C4347;
+    width: 8vh;
+    border-radius: 9px;
+    height: 8vh;
+    color: white;
+}
+
+
+
+.teclado-linha{
+    display:flex ;
+    justify-content: center;
+
+}
+
+
+button {
+    
+    margin: 2px;
+    padding: 5px;
+}
+
+.button{
+    width: 20vh;
+}
