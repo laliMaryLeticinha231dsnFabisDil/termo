@@ -94,12 +94,9 @@ body{
 }
 
 
-button {
-    
+button { 
     margin: 2px;
     padding: 5px;
 }
 
-.button{
-    width: 20vh;
-}
+
